@@ -21,3 +21,39 @@ body
 {
     background: linear-gradient(#eb3434,#ebb434,#34cdeb,#6c2ade);
 }
+#developerdiv1
+{
+    margin-top: auto;
+}
+h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    font-weight: bold;
+}
+h4
+{
+    color:#34cdeb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: 200;
+}
+#camera
+{
+    width: 500px;
+    height: 400px;
+    border-color: #6c2ade;
+}
+img
+{
+    width: fit-content;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow:#3e444d;
+    
+}
+img :hover
+{
+    width: 600px;
+    height: 500px;
+}
