@@ -28,7 +28,7 @@ body
 h1
 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:25px;
+    font-size:50px;
     font-weight: bold;
 }
 h4
@@ -46,13 +46,18 @@ h4
 }
 img
 {
-    width: fit-content;
+    width: 35%;
     border-radius: 10px;
     padding: 7px;
     box-shadow:#3e444d;
-    
+    height: 300px;
 }
 img:hover
 {
     border-radius: 140px;
+}
+.c1
+{
+    display:inline;
+    padding: 10px;
 }
