@@ -18,7 +18,7 @@ recognition.onresult=function(event)
     function speak()
 {
     var synth=window.speechSynthesis;
-    Webcam.attach(camera);
+    Webcam.attach('#camera');
     speak_data="taking your selfie in 5 seconds";
     var utterthis=new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterthis);
